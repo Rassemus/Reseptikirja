@@ -5,7 +5,7 @@
     app:startDestination="@id/itemListFragment">
     <fragment
         android:id="@+id/itemListFragment"
-        android:name="com.example.reseptikirja.ItemDetailsFragment"
+        android:name="com.example.reseptikirja.ItemListFragment"
         android:label="ItemListFragment">
     </fragment>
     <fragment

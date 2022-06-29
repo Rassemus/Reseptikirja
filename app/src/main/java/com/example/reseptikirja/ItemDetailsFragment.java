@@ -31,8 +31,8 @@ public class ItemDetailsFragment extends Fragment {
         if(recipe != null){
             ivRecipeImage.setImageResource(recipe.imageId);
             tvRecipeName.setText(recipe.name);
-            tvRecipeText.setText(recipe.mainText);
-            tvRecipeTime.setText("" + recipe.timeRequirement + " min");
+            //tvRecipeText.setText(recipe.mainText);
+            //tvRecipeTime.setText("" + recipe.timeRequirement + " min");
         }
 
     }
